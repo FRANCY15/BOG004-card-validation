@@ -1,13 +1,66 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0"&amp;gt;>
     <title>Tarjeta de crédito válida</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-    <header></header>
-    <main></main>
+  <body style="background-color: rgb(247, 204, 204)">
+    <header>
+      <img src="./img/ENCABEZADO.png" title="Titulo" width="1350px" style="align-content: center;">
+    </header>
+    <br>
+    <br>
+    <main>
+      <div align="center" id="tienda">
+        <img src="./img/KITTY.png" id="Kitty" title="KITTY" height="250px" width="300px" HSPACE="10">
+        <img src="img/PANDA.png" title="PANDA" height="250px" width="300px" HSPACE="10">
+        <img src="img/AVOCADO .png" title="AVOCADO" height="250px" width="300px" HSPACE="10">
+        <img src="img/CERDITO.png" title="CERDITO" height="250px" width="300px" HSPACE="10">
+        <br>
+        <br>
+        <input type="radio" name="babucha" id="Kitty" > 
+        <img src="img/boton avocado.png" alt="" width="200px" HSPACE="40">
+        
+        <input type="radio" name="babucha" id="Panda">
+        <img src="img/boton panda.png" alt="" width="200px" HSPACE="50">
+        
+        <input type="radio" name="babucha" id="Avocado" >
+        <img src="img/boton avocado.png" width=200px HSPACE="50">
+
+        <input type="radio" name="babucha" id="Cerdito" >
+        <img src="img/boton cerdito.png" width="200px" HSPACE="50">
+        <br>
+        <br>
+        <br>
+        <br>
+      </div>
+      <button onclick="IrPagar()"><img src="img/pagar.png" alt="" width="500px"></button>
+      <br>
+      <br>
+      <br>
+      <div>
+        <div align="center"> 
+          <img src="img/tarjeta.png" width="600">
+        </div>
+            
+            <br><br><br>
+            <img src="img/titular.png" width="400px">
+            <input type="text" name="titular" id="" HSPACE="40">
+            <img src="img/numero.png" width="400px">
+            <input type="number" name="numeroTC" id="numeroTC">
+            <img src="img/cedula.png" width="150px">
+            <input type="number" name="cedula" id="" HSPACE="165">
+            <img src="img/fecha.png" name="fechaExp" width="400px">
+            <input type="month" name="fechaExp" >
+            <br>
+            <br>
+            <div align="center">
+            <button onclick=""><img src="img/comprar.png" width="500px"></button>
+            </div>
+      </div>
+      
+    </main>
     <footer></footer>
     <script src="index.js" type="module"></script>
   </body>
