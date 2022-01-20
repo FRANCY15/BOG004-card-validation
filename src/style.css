@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(247, 204, 204) ;
+    padding: 2em;
+}
+header{
+    text-align: center;
+}
+
+#Pagar{
+    border-radius: 25px;
+    border-color: rgba(12, 235, 243, 0.795);
+    border-width: 25px;
+}
+
+#Comprar{
+    border-radius: 25px;
+    border-color: rgba(12, 235, 243, 0.795);
+    border-width: 25px;
+}
+fieldset{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: x-large;
+    color: darkcyan;
+    
+}
