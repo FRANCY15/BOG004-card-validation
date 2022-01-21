@@ -11,7 +11,6 @@ fieldset{
     font-size: x-large;
     color: darkcyan;
     text-align:center;
-    padding: 2em;
 }
 footer{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -25,7 +24,7 @@ footer{
 }
 
 .Ref{
-    width: 200px;
+    width: 180px;
     border-radius: 20px;
 }
 .TC{
@@ -33,6 +32,12 @@ footer{
     box-shadow: yellow;
     width: 600px;
     border-width: 25px;
+}
+
+input[type=radio]{
+    border: 10px;
+    width: 40px;
+    height: 2em;
 }
 
 #Pagar{
