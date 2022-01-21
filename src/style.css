@@ -5,22 +5,46 @@ body{
 header{
     text-align: center;
 }
-
-#Pagar{
-    border-radius: 25px;
-    border-color: rgba(12, 235, 243, 0.795);
-    border-width: 25px;
-}
-
-#Comprar{
-    border-radius: 25px;
-    border-color: rgba(12, 235, 243, 0.795);
-    border-width: 25px;
-}
 fieldset{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: italic;
     font-size: x-large;
     color: darkcyan;
-    
+    text-align:center;
+    padding: 2em;
+}
+footer{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: darkcyan;
+    font-size: x-large;
+    text-align:center;
+}
+.products{
+    height: 250px;
+    width:300px;
+}
+
+.Ref{
+    width: 200px;
+    border-radius: 20px;
+}
+.TC{
+    border-color: red;
+    box-shadow: yellow;
+    width: 600px;
+    border-width: 25px;
+}
+
+#Pagar{
+    border-radius: 25px;
+    border-color: rgba(12, 235, 243, 0.795);
+    border-width: 15px;
+    width: 800px;
+}
+
+#Comprar{
+    border-radius: 25px;
+    border-color: rgba(12, 235, 243, 0.795);
+    border-width: 15px;
+    width: 800px;
 }
