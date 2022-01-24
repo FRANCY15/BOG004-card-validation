@@ -33,6 +33,9 @@ footer{
     width: 600px;
     border-width: 25px;
 }
+.InputTC{
+    border: 25px;
+}
 
 input[type=radio]{
     border: 10px;
