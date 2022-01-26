@@ -10,14 +10,16 @@ let btnValidar = document.getElementById("Validar");
 function EnmascararTC (event){
     event.preventDefault();
     let numeroTC = document.getElementById("numeroTC").value;
-    validator.maskify(numeroTC);
+    document.getElementById('numeroTC').value = validator.maskify(numeroTC);
 }
 
-function comprar (numeroTC){
-    if (validator.isValid(numeroTC)===true){
-        alert('Gracias')
+function ValidarTC (){
+    let numeroTC = document.getElementById("numeroTC").value;
+    const validar = validator.isValid(numeroTC);
+    if(validar==true){
+        alert('Gracias por su compra!')
     }else{
-        alert('Verificar')
+        alert('Por favor verifique sus datos e intente nuevamente')
     }
 }
 
@@ -27,7 +29,7 @@ function portalPagos() {
 }
 
 //Eventos
-btnComprar.addEventListener("click", comprar);
+btnComprar.addEventListener("click", ValidarTC);
 btnPagar.addEventListener("click", portalPagos);
 btnValidar.addEventListener("click", EnmascararTC);
 

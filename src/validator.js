@@ -25,9 +25,9 @@ const validator = {
             suma+= parseInt(numero[y]);
         }
         if ((suma % 10) == 0){
-            return(true);
+            return true;
         }else{
-            return(false)
+            return false;
         }
     },
     
@@ -37,9 +37,10 @@ const validator = {
         let numeroEnmascarado = "";
         for (let i=0; i<longitud-4; i++){
             numeroEnmascarado += "#";
-         }
-        document.getElementById('numeroTC').value = (numeroEnmascarado +  CreditNumberArray.slice(-4));
+        } 
+        return numeroEnmascarado + CreditNumberArray.slice(-4);
     }
+
     
 };
 

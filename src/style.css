@@ -9,33 +9,32 @@ fieldset{
     font-family: fantasy;
     font-size: xx-large;
     color: darkcyan;
-    columns: 3;
 }
 footer{
     font-family: fantasy;
     color: darkcyan;
-    font-size: x-large;
+    font-size: medium;
     text-align:center;
 }
 input[type=radio]{
     border: 10px;
-    width: 40px;
+    width: 20px;
     height: 2em;
 }
 
 .products{
-    height: 250px;
-    width:300px;
+    height: 200px;
+    width:250px;
 }
 
 .Ref{
-    width: 180px;
+    width: 100px;
     border-radius: 20px;
 }
 .TC{
     border-color: red;
     box-shadow: yellow;
-    width: 600px;
+    width: 400px;
     border-width: 25px;
 }
 .btn-Validar{
@@ -58,12 +57,12 @@ input[type=radio]{
     border-radius: 25px;
     border-color: rgba(12, 235, 243, 0.795);
     border-width: 15px;
-    width: 800px;
+    width: 400px;
 }
 
 #Comprar{
     border-radius: 25px;
     border-color: rgba(12, 235, 243, 0.795);
     border-width: 15px;
-    width: 800px;
+    width: 400px;
 }

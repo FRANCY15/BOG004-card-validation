@@ -1,45 +1,40 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0"&amp;gt;>
+    <meta charset="utf-8">
     <title>Tarjeta de crédito válida</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
-      <img src="./img/ENCABEZADO.png" title="Titulo" width="1350px">
+      <img src="./img/ENCABEZADO.png" title="Titulo" width="1200px">
     </header>
-    <br>
     <br>
     <main>
       <div align="center" id="tienda">
-        <img class="products" src="./img/KITTY.png" id="Kitty" title="KITTY" HSPACE="10">
-        <img class="products" src="img/PANDA.png" title="PANDA"  HSPACE="10">
-        <img class="products" src="img/AVOCADO .png" title="AVOCADO" HSPACE="10">
-        <img class="products" src="img/CERDITO.png" title="CERDITO" HSPACE="10">
+        <img class="products" src="./img/KITTY.png" id="Kitty" title="KITTY" hspace="10">
+        <img class="products" src="img/PANDA.png" title="PANDA"  hspace="10">
+        <img class="products" src="img/AVOCADO .png" title="AVOCADO" hspace="10">
+        <img class="products" src="img/CERDITO.png" title="CERDITO" hspace="10">
         <br>
         <br>
-        <input type="radio" name="babucha" id="Kitty" > 
-        <img  class="Ref" src="img/boton kitty.png" HSPACE="40">
+        <input type="radio" name="babucha" > 
+        <img  class="Ref" src="img/boton kitty.png" hspace="40">
         
-        <input type="radio" name="babucha" id="Panda">
-        <img class="Ref" src="img/boton panda.png" HSPACE="50">
+        <input type="radio" name="babucha" >
+        <img class="Ref" src="img/boton panda.png" hspace="50">
         
-        <input type="radio" name="babucha" id="Avocado" >
-        <img class="Ref" src="img/boton avocado.png" HSPACE="50">
+        <input type="radio" name="babucha" >
+        <img class="Ref" src="img/boton avocado.png" hspace="50">
 
-        <input type="radio" name="babucha" id="Cerdito" >
-        <img class="Ref" src="img/boton cerdito.png" HSPACE="50">
+        <input type="radio" name="babucha">
+        <img class="Ref" src="img/boton cerdito.png" hspace="50">
         <br>
         <br>
         <br>
         <br>
-        <button id="Pagar"><img src="img/pagar.png" ></button>
+        <button id="Pagar"><img src="img/pagar.png" width="300" ></button>
       </div>
-      
-      <br>
-      <br>
-      <br>
       <div id="ProcesarCompra" style="display: none;"> 
         <form action="">
             <fieldset>
@@ -48,38 +43,48 @@
                     <div> 
                       <img class="TC" src="img/tarjeta.png">
                     </div>
-            <br><br><br>
-            <img src="img/titular.png" width="400px">
+            <img src="img/titular.png" width="250px">
             <input type="text" name="titular">
             <br>
-            <img src="img/numero.png" width="400px">
+            <img src="img/numero.png" width="250px">
             <input type="text" name="numeroTC" id="numeroTC" maxlength="16">
-            <button class="btn-Validar" id="Validar"><img width="15px" src="img/check.png">Validar</button>
+            <button class="btn-Validar" id="Validar"><img width="15px" src="img/check.png">Proteger</button>
             <br>
-            <img src="img/cedula.png" width="150px">
+            <img src="img/cedula.png" width="100px">
             <input type="number" name="cedula" id="">
             <br>
-            <img src="img/fecha.png" name="fechaExp" width="400px">
+            <img src="img/fecha.png" name="fechaExp" width="250px">
             <input type="month" name="fechaExp" >
             <br>
             <br>
             <div align="center">
-            <button type="button" id="Comprar"><img src="img/comprar.png"></button>
+            <button type="button" id="Comprar"><img src="img/comprar.png" width="300"></button>
             </div>
+          </div>
           </fieldset>
         </form>
-    </div>
       </div>
     </main>
-    <br><br><br>
+    <br>
     <footer>
-          <div class="col">
-              <p>Nuestras sedes:</p>
-              <p>Bogotá: Cra 7 52 63 - Teléfono: 3256547</p>
-              <p>Medellín: Cra 5 47 56 - Teléfono: 2586963</p> 
-                <img class="RedesSociales" src="img/logo fb.png" >
-                <img class="RedesSociales" src="img/logo ig.png" >
-                <img class="RedesSociales" src="img/logo wp.png" >     
+          <div align="center">
+            <table>
+              <thead>
+                <th>Nuestras Sedes: </th>
+                <th>Siguenos en nuestras redes sociales: </th>
+              </thead>
+              <tr>
+                <td>
+                  <p>Bogotá: Cra 7 52 63 - Teléfono: 3256547</p>
+                  <p>Medellín: Cra 5 47 56 - Teléfono: 2586963</p>
+                </td>
+                <td align="center">
+                  <img class="RedesSociales" src="img/logo fb.png" >
+                  <img class="RedesSociales" src="img/logo ig.png" >
+                  <img class="RedesSociales" src="img/logo wp.png" >
+                </td>
+              </tr>
+            </table>  
           </div>
     </footer>
     <script src="index.js" type="module"></script>
