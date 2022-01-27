@@ -5,6 +5,7 @@ import validator from './validator.js';
 let btnComprar = document.getElementById("Comprar");
 let btnPagar = document.getElementById("Pagar");
 let btnValidar = document.getElementById("Validar");
+let btnRegresar = document.getElementById("Regresar")
 
 //Funciones
 function EnmascararTC (event){
@@ -27,11 +28,15 @@ function portalPagos() {
     document.getElementById("ProcesarCompra").style.display = "block";
     document.getElementById('tienda').style.display = 'none';
 }
-
+function regresar() {
+    document.getElementById("tienda").style.display = "block";
+    document.getElementById ("ProcesarCompra").style.display = "none";
+}
 //Eventos
 btnComprar.addEventListener("click", ValidarTC);
 btnPagar.addEventListener("click", portalPagos);
 btnValidar.addEventListener("click", EnmascararTC);
+btnRegresar.addEventListener("click",regresar)
 
 
 
