@@ -66,3 +66,7 @@ input[type=radio]{
     border-width: 15px;
     width: 400px;
 }
+
+#cedula{
+    margin-left: 150px;
+}
