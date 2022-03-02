@@ -17,6 +17,7 @@ function EnmascararTC (event){
 function ValidarTC (){
     let numeroTC = document.getElementById("numeroTC").value;
     const validar = validator.isValid(numeroTC);
+    console.log(validar);
     if(validar==true){
         alert('Gracias por su compra!')
     }else{
